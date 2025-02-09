@@ -1,0 +1,74 @@
+body {
+    background-color: eeeeee;
+}
+
+    
+main {
+    background-color: #eeeeee;
+    background-image: url(assignment2/image2.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+   
+
+h1 {
+    font-weight: normal;
+    font-style: italic;
+    color: orange;
+    background-image: ;
+    
+}
+
+.imgbox{
+    border: 10px solid black;
+    background-color: yellow;
+    padding: 20px;
+    margin: 30px;
+}
+
+h2 {
+    font-weight: normal;
+    font-style: italic;
+    color: orange;
+    
+}
+
+h3 {
+    font-weight: normal;
+    font-style: italic;
+    color: orange;
+    
+}
+
+h4 {
+    font-weight: normal;
+    font-style: italic;
+    color: orange;
+    
+}
+
+
+
+.customtext {
+    font-family: Arial, Helvetica;
+}
+
+/*
+.boxmodel{
+    border: 2px solid red;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
+
+}
+    */
+
+.middletext {
+        text-align: center;
+    
+    }
+
+
+.centertext {
+    text-align: center;
+    text-align: justify;
+}
