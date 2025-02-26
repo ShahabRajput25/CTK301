@@ -1,0 +1,122 @@
+body {
+    background-image: url(a62.png);
+}
+
+#wrapper {
+    
+    background-color: white;
+    width: 900px;
+    border: 3px solid black;
+    margin: 1em auto;
+    /*padding: 1em;*/
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    
+}
+
+header {
+    grid-column: span 12;
+    background-color: black;
+    margin: 10px 10px 5px 10px;
+}
+
+h1 {
+    
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+    font-family: helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+nav {
+    grid-column: span 3;
+    
+     
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;  
+}
+
+
+nav li {
+    border: 1px solid red;
+    
+    margin: 10px;
+    background-color: red;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+nav li a:hover {
+    background-color: darkred;
+}
+
+main {
+    grid-column: span 9;
+    margin-right: 10px;
+    
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    margin-top: 7px;
+} 
+
+.borderbottom {
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+    margin-right: 5px;
+}
+
+.para3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: justify;
+}
+
+main a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+
+
+.floatimg {
+    float: left;
+    width: 400px;
+    border: 2px solid black;
+    margin: 5px 5px 5px 0px;
+    padding: 5px;
+}
+
+footer {
+    border-top: 2px solid black;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family: Verdana, Tahoma, sans-serif;
+    grid-column: span 12;
+}
+
+
+
+  
