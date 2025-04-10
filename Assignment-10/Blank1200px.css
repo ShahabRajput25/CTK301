@@ -1,6 +1,7 @@
 body {
   background-color: #999999;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
+  
 }
 
 #wrapper {
@@ -23,8 +24,12 @@ header {
   padding: 5px 5px 0px 5px;
   margin: 0px;
   text-align: center;
+  border-radius: 240px;
+  box-shadow: 10px 10px 10px #999;
+  text-shadow: 2px 2px 2px silver;
+  }
+
   
-}
 
 nav {
   grid-column: span 4;
@@ -40,10 +45,12 @@ nav ul {
 
 
 nav li {
-  
-  
+  text-transform: capitalize;
   margin: 10px;
   background-color: rgba(120, 147, 106, 1);
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 10px 10px 10px grey;
 }
 
 nav li a {
@@ -51,10 +58,18 @@ nav li a {
   text-decoration: none;
   display: block;
   padding: 10px;
+  text-shadow: 2px 2px 2px silver;
+  transition: background-color 1.0s;
+  color: black;
+
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 10px;
+  
 }
 
 nav li a:hover {
   background-color: rgba(0, 0, 0, 0.5);
+  
 }
 
 main {
@@ -65,6 +80,11 @@ main {
   margin-top: 5px;
   padding-left: 10px;
   padding-bottom: 20px;
+  
+}
+
+h2 {
+  text-shadow: 2px 2px 2px silver;
 }
 
 article {
@@ -73,6 +93,8 @@ article {
   margin-left: 5px;
   margin-right: 5px;
   padding-bottom: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 footer{
