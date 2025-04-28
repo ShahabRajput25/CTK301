@@ -41,6 +41,7 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;   
+    text-align: center;
     
 }
 
@@ -53,11 +54,11 @@ nav li {
     display: inline-block;
     text-align: center;
     text-transform: capitalize;
-    margin: 10px;
+    margin: 10px 30px ;
     background-color: rgba(120, 147, 106, 1);
     box-shadow: 10px 10px 10px grey;
-    padding-left: 20px;
-    padding-right: 20px;
+    /*padding-left: 20px;
+    padding-right: 20px;*/
 }
 
 nav li a {
@@ -69,6 +70,8 @@ nav li a {
   text-shadow: 2px 2px 2px silver;
   transition: background-color 1.0s;
   color: black;
+  padding-left: 20px;
+  padding-right: 20px;
   }
 
 nav li a:hover {
@@ -163,6 +166,10 @@ footer{
   background-color: rgba(120, 147, 106, 1);
   }
 
+.mainnut p {
+  margin-top: 90px;
+}
+
 .mainscrew {
   grid-column: span 6;
   margin-top: 0px;
@@ -171,9 +178,20 @@ footer{
   background-color: rgba(120, 147, 106, 1);
 }
 
+.mainscrew p {
+  margin-top: 100px;
+}
+
 
 .sizeimg {
   width: 300px;
+  float: left;
+  margin-right: 10px;
+}
+
+.mainscrew {
+  float: left;
+  margin-right: 10px;
 }
 
 .borderbottom {
